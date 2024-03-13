@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Напоминалка о зарядке", 
+    "description": "Приложение, которое напомнит тебе не засиживаться перед экраном и предложит встать сделать зарядку.",
+    "version": "1.0",
+    "permissions": ["alarms", "storage", "notifications"],
+    "action": {
+        "default_title": "Напоминалка о зарядке",
+        "default_popup": "popup.html"        
+    },
+    "icons": {
+       "16": "icon.png",
+       "32": "icon2.png"
+      },
+    "background": {
+        "service_worker": "background.js"}    
+}

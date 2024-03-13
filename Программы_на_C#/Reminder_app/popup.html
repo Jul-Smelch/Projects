@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <title>Напоминалка о зарядке</title>     
+        <style>
+            body {
+                background-color: darkkhaki;
+            }
+            img {
+                width: 160px;
+                align-items: center;
+            }
+            button {
+                background-color: white;
+                color: red;
+                border: 1; 
+                cursor: pointer;
+                margin: 3px;                                               
+            }
+            button:hover {
+                background-color: red;
+                color: white;
+            }
+            button::after {
+                background-color: red;
+                color: white;
+            }                        
+        </style>
+    </head>
+<body>
+    <img src="icon2.png" ></img>
+    <div style="margin: 3px;">
+        <b>Выбери подходящий таймер: </b>
+    </div>
+    <div>
+        <button id="30_min" value="30">30 минут</button>
+        <button id="60_min" value="60">60 минут</button>
+    </div>
+    <div>
+        <button id="switch_off" style="width: 152px;">Выключить таймер</button>
+    </div>
+    <script src="popup.js"></script>
+
+</body>
+</html>
+

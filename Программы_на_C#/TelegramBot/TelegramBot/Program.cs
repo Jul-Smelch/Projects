@@ -95,6 +95,11 @@ namespace TelegramBot
                                                 text: "Привет! Я бот, который поднимет твое настроение. Я умею рассказывать короткие смешные стихи.",
                                                 replyMarkup: new ReplyKeyboardRemove() //удалили клавиатуру, т.к. не нужна
                                                 );
+                                            await botClient.SendTextMessageAsync(
+                                                chatId: message.Chat.Id,
+                                                text: "Хочешь расскажу смешное? Нажми на вариант ответа:",
+                                                replyMarkup: replyKeyboard // передаем кнопки для ответа 
+                                                );
                                             return;
                                         }
                                         //Добавляем обработчик для кнопки - вывод рандомного стиха, и с выбором продолжить еще со стихами или все.

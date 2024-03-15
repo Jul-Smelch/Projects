@@ -1,7 +1,0 @@
-C:\Users\Julia\source\repos\Calculator\Calculator1\bin\Debug\Calculator1.exe.config
-C:\Users\Julia\source\repos\Calculator\Calculator1\bin\Debug\Calculator1.exe
-C:\Users\Julia\source\repos\Calculator\Calculator1\bin\Debug\Calculator1.pdb
-C:\Users\Julia\source\repos\Calculator\Calculator1\obj\Debug\Calculator1.csproj.AssemblyReference.cache
-C:\Users\Julia\source\repos\Calculator\Calculator1\obj\Debug\Calculator1.csproj.CoreCompileInputs.cache
-C:\Users\Julia\source\repos\Calculator\Calculator1\obj\Debug\Calculator1.exe
-C:\Users\Julia\source\repos\Calculator\Calculator1\obj\Debug\Calculator1.pdb
